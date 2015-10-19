@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HAL final1", ".", "{2FAE5166-9A24-4C8B-B95D-5C6EEA6686DD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/HAL final1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HAL final1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HAL final1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HAL final1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HAL final1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HAL final1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50378"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FAE5166-9A24-4C8B-B95D-5C6EEA6686DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAE5166-9A24-4C8B-B95D-5C6EEA6686DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

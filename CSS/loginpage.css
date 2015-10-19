@@ -1,0 +1,49 @@
+﻿html {
+	height: 100%;
+    min-width: 1365px;
+    max-width: 1365px;
+}
+body {
+}
+
+.content { 
+    width: 40%;
+    height: 100%;
+    color: #0033CC;
+    background-color: white;
+}
+
+.auto-style1 {
+    width: 169px;
+    height: 56px;
+}
+
+.heading {
+    font-size: 57px;
+    font-family: &quot;
+    font-weight: 900;
+    color: #0033CC;
+}
+
+.box {
+    height: 20px;
+    width: 190px;
+}
+
+.here {
+    color:black;
+    font-size:18px;
+    font-weight:700;
+}
+
+.textonimage {
+color:#0033CC;
+font-size:22px;
+font-weight:900;
+}
+
+.textonimage1 {
+color:#0033CC;
+font-size:15px;
+font-weight:700;
+}

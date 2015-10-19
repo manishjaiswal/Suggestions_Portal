@@ -1,0 +1,69 @@
+﻿html {
+	height: 100%;
+    min-width: 1365px;
+    max-width: 1365px;
+}
+body {
+}
+.heading {
+    font-size: 57px;
+    font-family: &quot;
+    font-weight: 900;
+    color: #0033CC;
+}
+
+.textonimage {
+font-size:15px;
+font-weight: 700;
+color: #0033CC;
+}
+
+.auto-style1 {
+    width: 169px;
+    height: 56px;
+}
+.menu {
+    font-weight:700;
+    width: 17%;
+    height: 100%;
+    float: left;
+}
+.menubutton {
+width: 100%;
+border-color: #333399;
+border-style: dotted;
+font-weight: 700;
+Font-Size: Large;
+color: #0033CC;
+}
+
+.content { 
+    width: 82%;
+    height: 100%;
+    float: right;
+    color: #0033CC;
+}
+.suggestiontable {
+    width: 100%;
+}
+.sno {
+    width: 35px;
+}
+.suggestor {
+    width: 200px;
+}
+.subject {
+    width: 250px;
+}
+.suggestion {
+    width: 300px;
+}
+.status {
+    width: 50px;
+}
+
+.halsug {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0033CC;
+}

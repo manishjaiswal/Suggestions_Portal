@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database" Class="dataclassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.login" Member="logins">
+    <Type Name="login">
+      <Column Name="uid" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="account_type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="security_question" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="security_answer" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="contact_no" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="email_id" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Table]" Member="Tables">
+    <Type Name="Table">
+      <Column Name="suggestionid" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="department" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="subject" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="suggestion" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="[date-time]" Member="date_time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="admin1note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="admin2note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="admin3note" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="likes" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="suggestion_temp" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="like_list" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="modstatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
