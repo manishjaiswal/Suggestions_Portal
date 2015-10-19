@@ -1,0 +1,67 @@
+﻿html {
+	height: 100%;
+    min-width: 1365px;
+    max-width: 1365px;
+}
+body {
+}
+
+.auto-style1 {
+    width: 169px;
+    height: 56px;
+}
+
+.heading {
+    font-size: 57px;
+    font-family: quot;
+    font-weight: 900;
+    color: #0033CC;
+}
+
+.menu {
+    font-weight:700;
+    width: 17%;
+    height: 100%;
+    float: left;
+}
+.content { 
+    width: 82%;
+    height: 100%;
+    float: right;
+    color: #0033CC;
+    font-weight:700;
+}
+
+.coloured {
+    font-size:15px;
+    font-weight: 700;
+    color: #0033CC;
+}
+
+.box {
+    border: 1px solid black;
+    height: 25px;
+    width: 230px;
+}
+.suggestionbox {
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+}
+.suggestionsubject {
+    border: 1px solid black;
+    height: 22px;
+    width: 250px;
+}
+.textonimage {
+font-size:15px;
+background-color:rgb(199, 217, 227);
+}
+.menubutton {
+width: 100%;
+border-color: #333399;
+border-style: dotted;
+font-weight: 700;
+Font-Size: Large;
+color: #0033CC;
+}

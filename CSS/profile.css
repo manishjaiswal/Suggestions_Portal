@@ -1,0 +1,71 @@
+﻿html {
+	height: 100%;
+    min-width: 1365px;
+    max-width: 1365px;
+}
+body {
+}
+
+.auto-style1 {
+    width: 169px;
+    height: 56px;
+}
+
+.heading {
+    font-size: 57px;
+    font-family: quot;
+    font-weight: 900;
+    color: #0033CC;
+}
+
+.menu {
+    font-weight:700;
+    width: 17%;
+    height: 100%;
+    float: left;
+}
+
+.welcomeuser {
+    width: 82%;
+    float: right;
+    text-align: right;
+}
+
+.menubutton {
+width: 100%;
+border-color: #333399;
+border-style: dotted;
+font-weight: 700;
+Font-Size: Large;
+color: #0033CC;
+}
+
+.textonimage {
+font-size:22px;
+color: #0033CC;
+font-weight: 700;
+}
+
+.coloured {
+    font-size: 15px;
+    color: #0033CC;
+    font-weight: 700;
+}
+.content { 
+    width: 70%;
+    float: left;
+    margin-left: 5px;
+    background-color:rgb(255, 255, 255);
+}
+
+.halsug {
+    font-size: 45px;
+    font-weight: 800;
+    color: #0033CC;
+}
+
+.suggestorbox {
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
